@@ -71,9 +71,6 @@
     </div>
     <script src="{{url('template/assets/vendors/perfect-scrollbar/perfect-scrollbar.min.js')}}"></script>
     <script src="{{url('template/assets/js/bootstrap.bundle.min.js')}}"></script>
-
-    {{-- <script src="{{url('template/assets/vendors/apexcharts/apexcharts.js')}}"></script> --}}
-    {{-- <script src="{{url('template/assets/js/pages/dashboard.js')}}"></script> --}}
     <script src="{{url('template/assets/js/mazer.js')}}"></script>
     <script src="{{url('template/assets/vendors/jquery/jquery.min.js')}}"></script>
     <script src="{{url('template/assets/vendors/jquery-datatables/jquery.dataTables.min.js')}}"></script>
@@ -81,11 +78,6 @@
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
-    {{-- <script>
-        // $("select").select2({
-        //     theme: "bootstrap-5",
-        // });
-    </script> --}}
     @yield('js')
 </body>
 
